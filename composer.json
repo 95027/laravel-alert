@@ -1,0 +1,21 @@
+{
+  "name": "saicoder/alert",
+  "description": "Reusable Laravel toast package",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Saicoder\\Alert\\": "Alert/src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Saicoder\\Alert\\AlertServiceProvider"
+      ],
+      "aliases": {
+        "Alert": "Saicoder\\Alert\\Facades\\Alert"
+      }
+    }
+  }
+}
